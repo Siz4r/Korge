@@ -1,0 +1,63 @@
+5
+C:\Users\zaq13\IdeaProjects\Gra lab8\backGround
+1
+0/450/900/215/C:\Users\zaq13\IdeaProjects\Gra lab8\ziemia1A
+1
+200/200/120/310/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo1
+0
+C:\Users\zaq13\IdeaProjects\Gra lab8\backGround
+2
+0/450/900/215/C:\Users\zaq13\IdeaProjects\Gra lab8\ziemia1A
+200/380/300/230/C:\Users\zaq13\IdeaProjects\Gra lab8\ziemia1A
+4
+100/100/120/410/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo1
+550/100/120/410/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo1
+620/100/120/410/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo1
+780/100/120/410/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo1
+1
+Goblin/300/200/75/100
+C:\Users\zaq13\IdeaProjects\Gra lab8\backGround3
+2
+0/500/900/165/C:\Users\zaq13\IdeaProjects\Gra lab8\ziemia2
+450/440/450/150/C:\Users\zaq13\IdeaProjects\Gra lab8\ziemia2A
+5
+20/100/120/450/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo2
+250/100/120/450/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo2
+500/50/120/450/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo2
+813/80/120/420/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo2
+660/0/120/500/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo2
+3
+Goblin/200/200/75/100
+Goblin/500/200/55/80
+Goblin/700/200/85/120
+C:\Users\zaq13\IdeaProjects\Gra lab8\backGround3
+2
+0/440/900/220/C:\Users\zaq13\IdeaProjects\Gra lab8\ziemia2
+0/400/300/165/C:\Users\zaq13\IdeaProjects\Gra lab8\ziemia2B
+8
+500/50/120/450/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo2
+813/80/120/420/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo2
+660/0/120/500/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo2
+427/0/120/500/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo2
+725/0/120/500/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo2
+20/20/120/450/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo2
+220/20/120/450/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo2
+150/20/120/450/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo2
+4
+Goblin/200/200/75/100
+Goblin/500/200/100/133
+Goblin/700/200/75/100
+Goblin/800/200/75/100
+C:\Users\zaq13\IdeaProjects\Gra lab8\backGround4
+1
+0/500/900/215/C:\Users\zaq13\IdeaProjects\Gra lab8\ziemia3
+4
+200/200/120/360/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo3
+420/260/120/300/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo3
+10/100/120/460/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo3
+670/160/120/400/C:\Users\zaq13\IdeaProjects\Gra lab8\Drzewo3
+1
+Boss/900/400/200/200
+
+
+
