@@ -1,4 +1,4 @@
-# Korge
+# LAB4
 Program tworzy punkty reprezentujące płaszczyzny Bezziera. Wszystko odbywa się 
 w jednej pętli. 
 
