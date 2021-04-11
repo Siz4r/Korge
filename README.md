@@ -8,6 +8,4 @@ w jednej pętli.
 -Zapis do pliku
 
 Można w kodzie podmienić pliki z punktami na inne(łyzka, kubek).
-Jest mały bug który nie wiem jak rozwiązać, otóż ostatni punkt
-w outpucie nie zapisuje się do końca(zjada cyfry po przecinku?)
 Poza tym punkty w pełni prawidłowe, sprawdzone w Paraview.
