@@ -47,6 +47,7 @@ fun main() {
         }
         u=0.0
     }
+    output.close()
 }
 
 fun berstein(m: Int, i: Int, v: Double):Double {
