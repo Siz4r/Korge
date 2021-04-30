@@ -41,8 +41,8 @@ namespace Lab7
                 histogramCore, histogramZnormalizowany);
 
             pictureNormalized.Image = uprooting.poprawKontrast();
-            //bluredPicture.Image = blur.filtrUsredniajacy(5);
-            //GaussianBlur.Image = blur.gaussianBlur(3);
+            bluredPicture.Image = blur.filtrUsredniajacy(5);
+            GaussianBlur.Image = blur.gaussianBlur(3);
         }
       
     }

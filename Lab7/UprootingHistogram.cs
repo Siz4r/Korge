@@ -98,9 +98,6 @@ namespace Lab7
                     znormalizowanyBM.SetPixel(x, y, Color.FromArgb(pixel.A, r, g, b));
                 }
             }
-            Image poprawione = znormalizowanyBM;
-            poprawione.Save("D:\\kwiatek.jpg");
-            //znormalizowanyBM.Save(@"D:\Programowanie\", ImageFormat.Jpeg);
             return znormalizowanyBM;
         }
     }

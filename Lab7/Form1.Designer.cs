@@ -49,6 +49,10 @@ namespace Lab7
             this.bluredPicture = new System.Windows.Forms.PictureBox();
             this.obrazekPodstawa = new System.Windows.Forms.PictureBox();
             this.pictureNormalized = new System.Windows.Forms.PictureBox();
+            this.Core = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.histogramCore)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.histogramZnormalizowany)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GaussianBlur)).BeginInit();
@@ -63,7 +67,7 @@ namespace Lab7
             this.histogramCore.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.histogramCore.Legends.Add(legend1);
-            this.histogramCore.Location = new System.Drawing.Point(12, 503);
+            this.histogramCore.Location = new System.Drawing.Point(12, 552);
             this.histogramCore.Name = "histogramCore";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
@@ -87,7 +91,7 @@ namespace Lab7
             this.histogramZnormalizowany.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
             this.histogramZnormalizowany.Legends.Add(legend2);
-            this.histogramZnormalizowany.Location = new System.Drawing.Point(437, 503);
+            this.histogramZnormalizowany.Location = new System.Drawing.Point(437, 552);
             this.histogramZnormalizowany.Name = "histogramZnormalizowany";
             series4.ChartArea = "ChartArea1";
             series4.Legend = "Legend1";
@@ -109,7 +113,7 @@ namespace Lab7
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(129, 480);
+            this.label1.Location = new System.Drawing.Point(140, 529);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(135, 20);
             this.label1.TabIndex = 5;
@@ -119,7 +123,7 @@ namespace Lab7
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(575, 480);
+            this.label2.Location = new System.Drawing.Point(572, 529);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(171, 20);
             this.label2.TabIndex = 6;
@@ -133,7 +137,7 @@ namespace Lab7
             // GaussianBlur
             // 
             this.GaussianBlur.Image = global::Lab7.Properties.Resources.IMG_7884_niskokontrast;
-            this.GaussianBlur.Location = new System.Drawing.Point(1100, 12);
+            this.GaussianBlur.Location = new System.Drawing.Point(1099, 79);
             this.GaussianBlur.Name = "GaussianBlur";
             this.GaussianBlur.Size = new System.Drawing.Size(328, 447);
             this.GaussianBlur.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -143,7 +147,7 @@ namespace Lab7
             // bluredPicture
             // 
             this.bluredPicture.Image = global::Lab7.Properties.Resources.IMG_7884_niskokontrast;
-            this.bluredPicture.Location = new System.Drawing.Point(733, 12);
+            this.bluredPicture.Location = new System.Drawing.Point(733, 79);
             this.bluredPicture.Name = "bluredPicture";
             this.bluredPicture.Size = new System.Drawing.Size(328, 447);
             this.bluredPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -152,29 +156,73 @@ namespace Lab7
             // 
             // obrazekPodstawa
             // 
-            this.obrazekPodstawa.Image = global::Lab7.Properties.Resources.FpJPDxu;
-            this.obrazekPodstawa.Location = new System.Drawing.Point(-1, -27);
+            this.obrazekPodstawa.Image = global::Lab7.Properties.Resources.IMG_7884_niskokontrast;
+            this.obrazekPodstawa.Location = new System.Drawing.Point(12, 79);
             this.obrazekPodstawa.Name = "obrazekPodstawa";
-            this.obrazekPodstawa.Size = new System.Drawing.Size(3840, 1080);
-            this.obrazekPodstawa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.obrazekPodstawa.Size = new System.Drawing.Size(328, 447);
+            this.obrazekPodstawa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.obrazekPodstawa.TabIndex = 3;
             this.obrazekPodstawa.TabStop = false;
             // 
             // pictureNormalized
             // 
             this.pictureNormalized.Image = global::Lab7.Properties.Resources.IMG_7884_niskokontrast;
-            this.pictureNormalized.Location = new System.Drawing.Point(369, 12);
+            this.pictureNormalized.Location = new System.Drawing.Point(371, 79);
             this.pictureNormalized.Name = "pictureNormalized";
             this.pictureNormalized.Size = new System.Drawing.Size(328, 447);
             this.pictureNormalized.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureNormalized.TabIndex = 2;
             this.pictureNormalized.TabStop = false;
             // 
+            // Core
+            // 
+            this.Core.AutoSize = true;
+            this.Core.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Core.Location = new System.Drawing.Point(140, 52);
+            this.Core.Name = "Core";
+            this.Core.Size = new System.Drawing.Size(51, 24);
+            this.Core.TabIndex = 8;
+            this.Core.Text = "Core";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.Location = new System.Drawing.Point(469, 52);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(150, 24);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Znormalizowane";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label5.Location = new System.Drawing.Point(839, 52);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(133, 24);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Averaging blur";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label6.Location = new System.Drawing.Point(1221, 52);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(125, 24);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Gaussian blur";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1439, 815);
+            this.ClientSize = new System.Drawing.Size(1439, 864);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.Core);
             this.Controls.Add(this.GaussianBlur);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -208,6 +256,10 @@ namespace Lab7
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox GaussianBlur;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.Label Core;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
 
